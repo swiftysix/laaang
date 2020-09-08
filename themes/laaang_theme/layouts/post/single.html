@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="section">
+  <article>
+    <h1 class="title is-1">{{ .Title }}</h1>
+    {{ with .Params.images }}
+    <img class="title-image" src="{{ index . 0 }}" alt="">
+    {{ end }}
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </article>
+</section>
+{{ end }}

@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  color: #292929;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: #FFF;
+}
+
+main {
+  margin: 0 auto;
+  width: 60vw;
+}
+
+footer {
+  min-height: 30vh;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: 4.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 1.7rem;
+}
+
+h4 {
+  margin-top: 1.3rem;
+  font-size: 1rem;
+}
+
+img, table, p {
+  margin-top: 1.3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.home-separator {
+  height: 0.2rem;
+  background: linear-gradient(45deg, #f28e36, #f2b450);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #fafafa;
+  border-style: solid;
+  border-width: 0rem;
+  border-left-width: 0.3rem;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom, #f28e36, #f2b450);
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.13);
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  width: 25vw;
+}
+.project-card h3 {
+  margin-top: 0;
+}
+.project-card ul {
+  padding: 0;
+}
+.project-card ul > li {
+  display: inline-block;
+  list-style: none;
+  orientation: landscape;
+  font-size: 0.8rem;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.2rem;
+  border-radius: 0 0.7rem;
+  margin-top: 0.5rem;
+  margin-right: 0.1rem;
+}
+.project-card:hover {
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.13);
+}
+
+.batches {
+  border-color: #999999;
+  color: #999999;
+}
+
+.back-button {
+  position: fixed;
+  top: 0;
+  margin: 2rem;
+  color: #f28e36;
+  font-size: 3rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  text-decoration: none;
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+.back-button:hover {
+  transform: rotate(360deg);
+}
+
+/*# sourceMappingURL=main.min.css.map */
