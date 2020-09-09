@@ -1,3 +1,3 @@
 # Laaang Website
 
-This is the repositor to build the [Laaang.ch](https://laaang.ch) website.
+This is the repository to build the [Laaang.ch](https://laaang.ch) website.
