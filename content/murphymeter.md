@@ -1,7 +1,7 @@
 ---
 title: "Murphymeter"
 date: 2020-09-05T23:58:22+02:00
-draft: true
+draft: false
 ---
 
 ## Planning
